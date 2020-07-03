@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.base" >
+
+    <!-- 網路使用權限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- 套件功能會用到的權限，請依使用需求把權限加進去 -->
+    <!--
+    相機
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    允許程序連接到已配對的藍牙設備
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+
+    允許程序發現和配對藍牙設備
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    Android 5.0（API 21）掃描藍牙需要定位權限
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    false為允許安裝在不支援BLE設備
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="false"/>
+
+    震動權限
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    CPU持續運行
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    撥出電話權限
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    傳感器權限
+    <uses-permission android:name="android.permission.BODY_SENSORS"/>
+
+    -->
+</manifest>

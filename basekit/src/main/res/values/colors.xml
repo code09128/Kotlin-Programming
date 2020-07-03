@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 共用-->
+    <color name="black">#000000</color><!--黑色 -->
+    <color name="white">#FFFFFF</color><!--白色 -->
+    <color name="lightslategray">#778899</color><!--亮藍灰 -->
+    <color name="steelblue">#549cd9</color><!--鋼藍色 -->
+    <color name="indianred">#CD5C5C</color><!--印第安紅 -->
+    <color name="goldenrod">#DAA520</color><!--金麒麟色 -->
+    <color name="gainsboro">#DCDCDC</color><!--淡灰色 -->
+    <color name="dimgray">#696969</color><!--暗深灰色 -->
+    <color name="darkgrey">#A9A9A9</color><!--暗灰色 -->
+    <color name="darkslategray">#2F4F4F</color><!--暗瓦灰色 -->
+    <color name="loading_color">#E91E63</color>
+    <color name="green">#368287</color>
+    <color name="green_dark">#9CB545</color>
+    <color name="green_bright">#42B57D</color>
+    <color name="transparent">#00000000</color>
+    <color name="darkerGray">#AAA</color>
+    <color name="lightYellow">#FBFCE6</color>
+    <color name="red">#FE0A5A</color>
+    <color name="goldenOrange">#FF7E28</color>
+    <color name="brown">#B48742</color>
+</resources>

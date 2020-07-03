@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Loading動畫style-->
+    <style name="customDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:backgroundDimEnabled">false</item><!-- Loaing視窗外圍背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item><!-- Loaing視窗內圍背景透明 -->
+        <item name="colorAccent">@color/loading_color</item><!-- 旋轉顏色 -->
+    </style>
+</resources>

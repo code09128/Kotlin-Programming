@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 陰影部分 -->
+    <!-- top:陰影上緣離上邊界的距離(參數越高陰影會越短)
+         left:陰影左邊離左邊界的距離-->
+    <item
+        android:left="2dp"
+        android:top="2dp">
+
+        <shape android:shape="rectangle">
+            <!-- 背景底色，angle是顏色分界處要在四邊中的哪個位置 -->
+            <gradient
+                android:angle="270"
+                android:endColor="#17000000"
+                android:startColor="#17000000" />
+
+            <!-- 四角的圓角幅度-->
+            <corners
+                android:bottomLeftRadius="6dp"
+                android:bottomRightRadius="6dp"
+                android:topLeftRadius="6dp"
+                android:topRightRadius="6dp" />
+        </shape>
+    </item>
+
+    <!-- 背景部分 -->
+    <!-- bottom:背景部分的下緣離底部的距離(參數越高背景會越短)
+         right:背景部分的右邊離右邊界的距離(相對應的offset) -->
+    <item
+        android:bottom="5dp"
+        android:right="5dp">
+
+        <shape android:shape="rectangle">
+            <!-- 背景底色，angle是顏色分界處要在四邊中的哪個位置 -->
+            <gradient
+                android:angle="0"
+                android:endColor="#BABABA"
+                android:startColor="#BABABA" />
+
+            <!-- 四角的圓角幅度-->
+            <corners
+                android:bottomLeftRadius="6dp"
+                android:bottomRightRadius="6dp"
+                android:topLeftRadius="6dp"
+                android:topRightRadius="6dp" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,44 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.jakewharton.butterknife'
+
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        minSdkVersion 24
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    //noinspection GradleCompatible
+    api 'androidx.appcompat:appcompat:1.0.0'
+    api 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+
+    /*側欄選單應用*/
+    api 'com.google.android.material:material:1.1.0'
+
+    /*綁定註解(8.6.0以上是kotlin，在lib使用會錯)*/
+    api 'com.jakewharton:butterknife:10.2.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
+
+    /*RecyclerView應用*/
+    api 'androidx.recyclerview:recyclerview:1.1.0'
+
+    /*QR code解析*/
+    api 'com.journeyapps:zxing-android-embedded:3.5.0'
+
+    /*gson*/
+    api 'com.google.code.gson:gson:2.8.6'
+}

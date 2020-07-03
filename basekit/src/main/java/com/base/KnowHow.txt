@@ -1,0 +1,104 @@
+﻿/**這裡只是單純收錄曾遇過的問題，解決方法請參考下列網址*/
+    /*Git 指令*/
+    git init
+    git remote add origin "//git/Git Respository/華馨/2017 CS(照護服務平台)/Android Source Code.git"
+    git remote -v
+    git add .
+    git commit -m "新增-初始匯入" -m "初始匯入"
+    git push origin master
+
+    /*把檔案移出add狀態(取消暫存)*/
+    $ git reset HEAD (path file userName)
+
+    /*本地端尚未commit時，先pull程式下來時的指令*/
+    git add .
+    git stash
+    git pull origin master
+    git stash pop
+    git stash clear
+
+    http://www.jianshu.com/p/79604c3ddcae
+
+    /*Git基礎 - 撤消操作*/
+    https://git-scm.com/book/zh/v1/Git-%E5%9F%BA%E7%A1%80-%E6%92%A4%E6%B6%88%E6%93%8D%E4%BD%9C
+
+    /*Git衝突處理*/
+    https://blog.csdn.net/lincyang/article/details/21519333
+
+    /*螢幕尺寸設定*/
+    https://desolve.blogspot.tw/2013/03/android-android-developer-note-best_8703.html
+    http://blog.csdn.net/zhufuing/article/details/8024441
+
+    /*Gradle第三方套件下載*/
+    https://mvnrepository.com
+
+    /*style使用方法*/
+    https://www.jianshu.com/p/fb671e11e455
+    https://www.jianshu.com/p/7b5c99e1cfa3
+
+    /*Log的使用方法*/
+    https://bibby1101.tian.yam.com/posts/46679044
+
+    /*xml style陰影效果*/
+    https://www.jianshu.com/p/f4b3f50071ad
+
+    /*改變AlertDialog按鈕顏色*/
+    https://stackoverflow.com/questions/27520967/how-to-change-the-colour-of-positive-and-negative-button-in-custom-alert-dialog/27521470
+    http://www.voidcn.com/article/p-dreetdqr-bqu.html
+
+    /*java的集合操作(交集、並集、差集)整理*/
+    http://www.itread01.com/articles/1486065607.html
+
+    /*SQLite數據庫中系統表介紹及應用相關*/
+    http://blog.csdn.net/pku_android/article/details/7426692
+
+    /*QR code套件使用(ZXing)*/
+    https://github.com/journeyapps/zxing-android-embedded#adding-aar-dependency-with-gradle
+    https://www.jianshu.com/p/b85812b6f7c1
+    https://www.jianshu.com/p/e11c67b95f9c
+    http://www.apkbus.com/blog-192385-57809.html
+
+    /*ZXing豎屏寫法*/
+    https://www.jianshu.com/p/b74ca6b19d84
+
+    /*butterknife在Library中的引用*/
+    https://www.jianshu.com/p/487216c14f15
+
+    /*取得當前頁面的Activity*/
+    http://droidyue.com/blog/2016/02/21/thinking-of-getting-the-current-activity-in-android/
+
+    /*Fragment使用*/
+    http://btsken.blogspot.tw/2014/10/android-fragment.html
+
+    /*TableLayout(表格布局)*/
+    https://www.jianshu.com/p/77599d96d499
+
+    /*Edittext inputType用法*/
+    http://www.cnblogs.com/smilefortoday/p/4015610.html
+
+    /*危險權限使用*/
+    https://litotom.com/2016/05/15/android-6-permission/
+
+    /*Android中App字體大小不隨系統改變而改變*/
+    http://www.jb51.net/article/111285.htm
+
+    /*android.view.WindowManager$BadTokenException崩潰的4種情形*/
+    https://www.jianshu.com/p/4c5fafe08fa7
+
+    /*Toolbar使用及Fragment中的Toolbar處理*/
+    http://www.cnblogs.com/mengdd/p/5590634.html
+
+    /*PopupWindow在生命週期中創建報錯崩潰問題*/
+    https://www.jianshu.com/p/bbbc495780e7
+
+    /*ProgressDialog style用法*/
+    https://www.jianshu.com/p/be54b834b8f5
+
+    /*ProgressDialog應用*/
+    http://lanyan-lan.iteye.com/blog/1540384
+
+    /*圖片縮放處理*/
+    http://dean-android.blogspot.com/2015/02/android-imageview.html
+
+    /*RecyclerView加載更多用notifyDataSetChanged()刷新圖片閃爍*/
+    https://hk.saowen.com/a/6b835788d3ae152f171f20c22ed97581b14c8b2c21f070c3ce84c6307c18f5a9

@@ -1,0 +1,3 @@
+include ':basekit'
+rootProject.name='KotlinTest'
+include ':app'
